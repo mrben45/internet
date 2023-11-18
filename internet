@@ -1,0 +1,148 @@
+logo='\033[0;46m'
+a='\033[30;0m'
+n='\033[0m'
+h='\033[32;1m'
+m='\033[31;1m'
+c='\033[36;1m'
+p='\033[1;35m'
+k='\033[33;1m'
+
+clear
+echo "$h selamat$m datang$k di$c fitur$n plankston$a"
+echo ""
+echo "$m 1 $a) $k .ssh indonesia $a [$h ON$a ]$m"
+echo "$m 2 $a) $k .ssh singapure $a [$h ON$a ]$m"
+echo "$m 3 $a) $k .ssh acak      $a [$h ON$a ]$m"
+echo "$m 0 $a) $m .kluar program"
+echo $c
+echo '
+   AKUN SSH 100% GRATIS
+   AUTHOR : PLANKSTON
+'
+echo "$m  WHATSAPP : 089618602219"
+echo $a
+read -p " pilih menu : " men
+
+case $men in
+1)
+echo "$h perintah benar$a"
+sleep 1
+rm -rf badut
+rm -rf .plankston
+sleep 1
+git clone https://github.com/mrben45/badut
+mv badut .plankston
+sleep 1
+echo "$h [          ] 00% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■         ] 10% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■        ] 20% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■       ] 30% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■      ] 40% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■     ] 50% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■    ] 60% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■   ] 70% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■  ] 80% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■ ] 90% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 3
+cat .plankston/indo
+echo ""
+exit
+;;
+
+2)
+echo "$h perintah benar$a"
+sleep 1
+rm -rf badut
+rm -rf .plankston
+sleep 1
+git clone https://github.com/mrben45/badut
+mv badut .plankston
+sleep 1
+echo "$h [          ] 00% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■         ] 10% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■        ] 20% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■       ] 30% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■      ] 40% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■     ] 50% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■    ] 60% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■   ] 70% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■  ] 80% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■ ] 90% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 3
+cat .plankston/sg
+echo ""
+exit
+;;
+
+3)
+echo "$h perintah benar$a"
+sleep 1
+rm -rf badut
+rm -rf .plankston
+sleep 1
+git clone https://github.com/mrben45/badut
+mv badut .plankston
+sleep 1
+echo "$h [          ] 00% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■         ] 10% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■        ] 20% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■       ] 30% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■      ] 40% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■     ] 50% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■    ] 60% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■   ] 70% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■  ] 80% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■ ] 90% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 3
+cat .plankston/luar
+echo ""
+exit
+;;
+
+0)
+echo "$m thanks😊😊😊"
+echo $h
+echo ""
+exit
+;;
+*)
+echo "$k perintah anda salah"
+sleep 3
+sh internet
+exit
+esac
+exit
+done
