@@ -61,6 +61,7 @@ sleep 0.5
 echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
 sleep 3
 cat .plankston/indo
+sh .plankston/l
 echo ""
 exit
 ;;
@@ -97,6 +98,7 @@ sleep 0.5
 echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
 sleep 3
 cat .plankston/sg
+sh .plankston/l
 echo ""
 exit
 ;;
@@ -133,6 +135,7 @@ sleep 0.5
 echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
 sleep 3
 cat .plankston/luar
+sh .plankston/l
 echo ""
 exit
 ;;
@@ -169,6 +172,7 @@ sleep 0.5
 echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
 sleep 3
 cat .plankston/vmess
+sh .plankston/l
 echo ""
 exit
 ;;
@@ -205,6 +209,7 @@ sleep 0.5
 echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
 sleep 3
 cat .plankston/udp
+sh .plankston/l
 echo ""
 exit
 ;;
@@ -245,6 +250,7 @@ sleep 3
 echo " OTOMATIS AKAN DIARAHKAN KE WHATSAPP"
 sleep 1
 xdg-open https://wa.me/6289618602219
+sh .plankston/l
 echo ""
 exit
 ;;
