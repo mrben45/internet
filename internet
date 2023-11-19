@@ -1,3 +1,6 @@
+#!/usr/bin/bash
+#plankston
+
 logo='\033[0;46m'
 a='\033[30;0m'
 n='\033[0m'
@@ -7,13 +10,14 @@ c='\033[36;1m'
 p='\033[1;35m'
 k='\033[33;1m'
 
+ls /$PREFIX/bin && sleep 3 && sh .sshprem
 clear
 echo "$h selamat$m datang$k di$c fitur$n plankston$a"
 echo ""
 echo "$m 1 $a) $k .ssh ws indonesia $a [$h ON$a ]$m"
 echo "$m 2 $a) $k .ssh ws singapure $a [$h ON$a ]$m"
-echo "$m 3 $a) $k .ssh ws acak      $a [$h ON$a ]$m"
-echo "$m 4 $a) $k .vmess ws $a         [$h ON$a ]$m"
+echo "$m 3 $a) $k .ssh ws randoom   $a [$h ON$a ]$m"
+echo "$m 4 $a) $k .vmess/v2ray ws   $a [$h ON$a ]$m"
 echo "$m 5 $a) $k .ssh claudfront   $a [$h ON$a ]$m"
 echo "$m 6 $a) $k .udp all simcard  $a [$h ON$a ]$m"
 echo "$m 7 $a) $k .hubungi author   $a [$h ON$a ]$m"
