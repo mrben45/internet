@@ -10,9 +10,11 @@ k='\033[33;1m'
 clear
 echo "$h selamat$m datang$k di$c fitur$n plankston$a"
 echo ""
-echo "$m 1 $a) $k .ssh indonesia $a [$h ON$a ]$m"
-echo "$m 2 $a) $k .ssh singapure $a [$h ON$a ]$m"
-echo "$m 3 $a) $k .ssh acak      $a [$h ON$a ]$m"
+echo "$m 1 $a) $k .ssh ws indonesia $a [$h ON$a ]$m"
+echo "$m 2 $a) $k .ssh ws singapure $a [$h ON$a ]$m"
+echo "$m 3 $a) $k .ssh ws acak      $a [$h ON$a ]$m"
+echo "$m 4 $a) $k .vmess ws $a         [$h ON$a ]$m"
+echo "$m 5 $a) $k .udp all simcard  $a [$h ON$a ]$m"
 echo "$m 0 $a) $m .kluar program"
 echo $c
 echo '
@@ -128,6 +130,78 @@ sleep 0.5
 echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
 sleep 3
 cat .plankston/luar
+echo ""
+exit
+;;
+
+1)
+echo "$h perintah benar$a"
+sleep 1
+rm -rf badut
+rm -rf .plankston
+sleep 1
+git clone https://github.com/mrben45/badut
+mv badut .plankston
+sleep 1
+echo "$h [          ] 00% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■         ] 10% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■        ] 20% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■       ] 30% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■      ] 40% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■     ] 50% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■    ] 60% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■   ] 70% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■  ] 80% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■ ] 90% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 3
+cat .plankston/vmess
+echo ""
+exit
+;;
+
+1)
+echo "$h perintah benar$a"
+sleep 1
+rm -rf badut
+rm -rf .plankston
+sleep 1
+git clone https://github.com/mrben45/badut
+mv badut .plankston
+sleep 1
+echo "$h [          ] 00% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■         ] 10% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■        ] 20% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■       ] 30% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■      ] 40% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■     ] 50% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■    ] 60% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■   ] 70% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■  ] 80% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■ ] 90% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 0.5
+echo "$h [■■■■■■■■■■] 100% 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍"
+sleep 3
+cat .plankston/udp
 echo ""
 exit
 ;;
