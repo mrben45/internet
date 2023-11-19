@@ -134,7 +134,7 @@ echo ""
 exit
 ;;
 
-1)
+4)
 echo "$h perintah benar$a"
 sleep 1
 rm -rf badut
@@ -170,7 +170,7 @@ echo ""
 exit
 ;;
 
-1)
+5)
 echo "$h perintah benar$a"
 sleep 1
 rm -rf badut
